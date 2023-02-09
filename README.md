@@ -90,7 +90,7 @@ Three
 1. it is used to create hyper link when the user click on the hyper link it rediect to that link specific web page.
 2. it is pair tag
 3. **href** it is a attribute, used to put any hyper link.
-4. **target** 
+4. **target** it is used to open the web pag in sparate window.(_blank)
 
 ```
 Attributs
@@ -103,11 +103,84 @@ Attributs
 ### Syntax 
 
 ```
-<a href="target url here">Link text here </a>
+<a href="target url here" target="_blank">Link text here </a>
 ```
 
 #### Sample Code for **a**
 
 ```
-<a href="https://www.google.com/">Google </a>
+<a href="https://www.google.com/" target="_blank">Google </a>
 ```
+
+# List Tags
+1. ul - unordered list (.)
+2. ol - ordered list (1,2,3)
+
+**UL**
+1. ul stands for unordered list
+2. it is used to display list items with bullets
+3. ul inside li list items
+
+### Syntax
+```
+<ul>
+    <li>Your ITEM</li>
+     <li>Your ITEM</li>
+ </ul>
+ ```
+
+#### Sample Code for **UL**
+```
+<ul>
+    <li>HTML</li>
+     <li>CSS</li>
+ </ul>
+ ```
+
+
+**OL**
+1. ol stands for ordered list
+2. it is used to display list items with number
+3. ol inside li list items
+
+### Syntax
+```
+<ol>
+    <li>Your ITEM</li>
+     <li>Your ITEM</li>
+ </ol>
+ ```
+
+#### Sample Code for **UL**
+```
+<ol>
+    <li>HTML</li>
+     <li>CSS</li>
+ </ol>
+ ```
+
+ **DL**
+1. dl stands for defination list
+2. it is used to display collection defination
+3. dl inside dt (defination titile)
+4. dl inside dd(data defination) 
+
+### Syntax
+```
+<dl>
+    <dt>Your ITEM</dt>
+    <dd>Your ITEM</dd>
+    <dt>Your ITEM</dt>
+    <dd>Your ITEM</dd>
+ </dl>
+ ```
+
+#### Sample Code for **DL**
+```
+<dl>
+    <dt>HTML</dt>
+    <dd>used display static webpage on browser</dd>
+    <dt>CSS</dt>
+    <dd>used to display color</dd>
+ </dl>
+ ```
