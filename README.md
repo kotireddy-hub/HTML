@@ -184,3 +184,44 @@ Attributs
     <dd>used to display color</dd>
  </dl>
  ```
+
+ # Table Tags
+ 1. Table used to display data in structre way 
+ 2. table is a collection  of rows. each row is a collection of cell 
+ 3. table is represented a table contains "tr"(row ) "td"(cell) table heading "th" caption 
+ ## Tags Used in Table 
+ ```
+ <table></table>
+  <thead><thead>
+  <th><th>
+ <caption></caption>
+ <tr><tr>
+ <td></td>
+ ```
+
+1. tr stands for **Table row**
+2. th stand for **Table Header**
+3. td stands for **Table data**
+4. Caption tag is used to specficy of titile for the table 
+5. attribut 
+ 1. border -we need give the number ex:-1,2,3 ....
+ 2. rowspan 
+    1. "n"  specify the no of row to merge
+ 3. colspan
+    1. "n" specify the no of cell to merge
+## Syntax
+```
+<table>
+    <tr>
+    <th>Your Header</th>
+    <th>Your Header</th>
+    <th>Your Header</th>
+    </tr>
+    <tr>
+    <td>Your Text here</td>
+    <td>Your Text here</td>
+    <td>Your Text here</td>
+    </tr>
+</table>
+```
+
