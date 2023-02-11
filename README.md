@@ -224,4 +224,39 @@ Attributs
     </tr>
 </table>
 ```
+# Form
+1. it is parent tag
+2. **input** tag is ued for create a user or form control
+
+# input 
+1. input unpair tag
+
+## syntax
+```
+<form>
+<input type="text" />
+</form>
+```
+### Sample code for **input**
+```
+<form>
+    Name:<input type="text" />
+</form>
+```
+
+### Attributes for Input
+```
+1. type
+    ->Text :- Crate textbox.Textbox is ued to accept string value from user.
+    ->Number :- Used to enter number from user. 
+    ->Password :- Create Password textbox.
+    -> Button :- Create button from inupt used to javascript event 
+    -> Checkbox :- Create checkboxs used to display Yes/No of option to the user.
+    -> Radio :- Create radio button used to display yes/no question.
+    -> hidden :- Crate hidden value or file
+    -> submit :- Create submit form, submit is ued to submit the form to the server page
+    -> file :- to upload file or image in server
+    -> Search :- To display seach box in web page
+    -> image :- 
+ ``` 
 
