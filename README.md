@@ -258,5 +258,18 @@ Attributs
     -> file :- to upload file or image in server
     -> Search :- To display seach box in web page
     -> image :- 
+2.name
+3.id
+4.max
+5.min
+6.width
+7.height
+8.src
+9.value
+10.tabindex
+11.readonly ="readonly"
+12.disabled ="disabled"
+13.checked ="checked"
+14. placeholde
  ``` 
 
