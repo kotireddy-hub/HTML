@@ -273,3 +273,40 @@ Attributs
 14. placeholde
  ``` 
 
+
+# label
+1. label tag is ued to create field label
+
+## syntax 
+```
+<label>Your text here</label>
+```
+
+### Sample code 
+```
+<label> First Name </label> <input  type="text" />
+```
+
+# Select
+1. select is ued to create dropdownlist or listbox
+2. drowndown is used to display few option to the user select.
+3. select inside option
+
+## syntax
+```
+<select>
+<option>item1</option>
+<option>item2</option>
+<option>item3</option>
+<option>item4</option>
+</select>
+```
+### Sample COde
+```
+<select>
+<option> IND </option>
+<option> US </option>
+<option> UK </option>
+<option> WI </option>
+</select>
+```
