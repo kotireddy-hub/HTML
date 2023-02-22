@@ -227,13 +227,25 @@ Attributs
 # Form
 1. it is parent tag
 2. **input** tag is ued for create a user or form control
+3. form is collection input, select, option,p.
+4. method :-
+ 1. "GET" ,"POST"
+ 1. GET :-
+ 1. display the parameter names and valuess in the browser address bar.
+ 1. used to searching the data in database.
 
+ 2. POST :-
+ 1. the parameter and value will not shown in browser address bar
+ 1. used to do operation insert,update and delete
+
+## attribute :-
+action  - url (http://localhost/rigistation.asp)
 # input 
 1. input unpair tag
 
 ## syntax
 ```
-<form>
+<form method="get" action="http://localhost/rigistation.asp">
 <input type="text" />
 </form>
 ```

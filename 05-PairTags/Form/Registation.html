@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+<!-- <script>
+    function myFunction(){
+    var name = document.getElementById("name").value;
+    console.log(name,"==== name");
+    document.write(name);
+    }
+</script> -->
 </head>
 <body>
+    <!-- <form method="get" action="http://localhost/rigistation.asp"> -->
     <h1>Sign Up</h1>
     <p>it's free and takes lessthan 30min</p>
     <p>
         <!-- First Name :<input type="text" /> -->
-        <input type="text" placeholder="First Name" maxlength="20" minlength="2"/>
+        <input type="text" placeholder="First Name" maxlength="20" minlength="2" id="name"/>
     </p>
     <p>
         Last Name : <input type="text" />
@@ -52,8 +61,12 @@
         <option>UK</option>
     </select>
 </p>
+    <!-- <p>
+        <input type="submit" value="Submit" />
+    </p> -->
     <p>
-        <input type="button" value="Submit" />
+        <input type="button" value="Submit" onclick="myFunction()"/>
     </p>
+<!-- </form> -->
 </body>
 </html>
