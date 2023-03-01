@@ -7,6 +7,43 @@
     <title>Document</title>
 </head>
 <body>
-    this is Contact Page
+    <h1>Contact US</h1>
+    <form method="post" action="http://localhost:3000">
+        <div>
+        <label>
+            First Name*:
+        </label>
+        <input type="text" placeholder="First Name" name="firstName" required />
+    </div>
+    <br />
+    <div>
+        <label>Last Name*:</label>
+        <input type="text" placeholder="Last Name" name="lastName" required />
+    </div>
+    <br />
+    <div>
+        <label>Email*:</label>
+        <input type="email" placeholder="Email" name="email" required autocomplete="off" />
+    </div>
+    <br />
+    <div>
+        <label>Phone*:</label>
+        <input type="number" placeholder="Phone" name="phone" required />
+    </div>
+    <br />
+    <div>
+        <label>Counrty</label>
+        <select name="country">
+            <option value="-1">Select a Country</option>
+            <option value="india">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+    </form>
 </body>
 </html>
